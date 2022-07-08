@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="d3d">
+      <UniqueIdentifier>{4063880B-AC6C-887C-35E8-9E7CA1F0937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl">
+      <UniqueIdentifier>{F8775900-E403-880B-4DB2-880B395D880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl\glad">
+      <UniqueIdentifier>{FF05E8FB-6BE5-6697-74FD-F16DE05BCDF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl\shaders">
+      <UniqueIdentifier>{F1AC99E8-DD64-DB35-466C-B49132437626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lodepng">
+      <UniqueIdentifier>{4EBC8887-BA9B-0723-C3B3-92F92F126E84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ps2">
+      <UniqueIdentifier>{5A9E880B-C6A7-887C-4F23-9F7CBB2B947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwd3d.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwd3d8.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwd3d9.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwd3dimpl.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwxbox.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\d3d\rwxboximpl.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\glad\glad.h">
+      <Filter>gl\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\glad\khrplatform.h">
+      <Filter>gl\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\rwgl3.h">
+      <Filter>gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\rwgl3impl.h">
+      <Filter>gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\rwgl3plg.h">
+      <Filter>gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\rwgl3shader.h">
+      <Filter>gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\gl\rwwdgl.h">
+      <Filter>gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\lodepng\lodepng.h">
+      <Filter>lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\ps2\rwps2.h">
+      <Filter>ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\ps2\rwps2impl.h">
+      <Filter>ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\ps2\rwps2plg.h">
+      <Filter>ps2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\librw\src\rwanim.h" />
+    <ClInclude Include="..\vendor\librw\src\rwbase.h" />
+    <ClInclude Include="..\vendor\librw\src\rwcharset.h" />
+    <ClInclude Include="..\vendor\librw\src\rwengine.h" />
+    <ClInclude Include="..\vendor\librw\src\rwerror.h" />
+    <ClInclude Include="..\vendor\librw\src\rwobjects.h" />
+    <ClInclude Include="..\vendor\librw\src\rwpipeline.h" />
+    <ClInclude Include="..\vendor\librw\src\rwplg.h" />
+    <ClInclude Include="..\vendor\librw\src\rwplugins.h" />
+    <ClInclude Include="..\vendor\librw\src\rwrender.h" />
+    <ClInclude Include="..\vendor\librw\src\rwuserdata.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\vendor\librw\src\anim.cpp" />
+    <ClCompile Include="..\vendor\librw\src\base.cpp" />
+    <ClCompile Include="..\vendor\librw\src\bmp.cpp" />
+    <ClCompile Include="..\vendor\librw\src\camera.cpp" />
+    <ClCompile Include="..\vendor\librw\src\charset.cpp" />
+    <ClCompile Include="..\vendor\librw\src\clump.cpp" />
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d8.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d8matfx.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d8render.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d8skin.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d9.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d9matfx.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d9render.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3d9skin.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3ddevice.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3dimmed.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\d3drender.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\xbox.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\xboxmatfx.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\xboxskin.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\d3d\xboxvfmt.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\engine.cpp" />
+    <ClCompile Include="..\vendor\librw\src\error.cpp" />
+    <ClCompile Include="..\vendor\librw\src\frame.cpp" />
+    <ClCompile Include="..\vendor\librw\src\geometry.cpp" />
+    <ClCompile Include="..\vendor\librw\src\geoplg.cpp" />
+    <ClCompile Include="..\vendor\librw\src\gl\gl3.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3device.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3immed.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3matfx.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3pipe.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3raster.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3render.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3shader.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\gl3skin.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\glad\glad.c">
+      <Filter>gl\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\gl\wdgl.cpp">
+      <Filter>gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\hanim.cpp" />
+    <ClCompile Include="..\vendor\librw\src\image.cpp" />
+    <ClCompile Include="..\vendor\librw\src\light.cpp" />
+    <ClCompile Include="..\vendor\librw\src\lodepng\lodepng.cpp">
+      <Filter>lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\matfx.cpp" />
+    <ClCompile Include="..\vendor\librw\src\pipeline.cpp" />
+    <ClCompile Include="..\vendor\librw\src\plg.cpp" />
+    <ClCompile Include="..\vendor\librw\src\png.cpp" />
+    <ClCompile Include="..\vendor\librw\src\prim.cpp" />
+    <ClCompile Include="..\vendor\librw\src\ps2\pds.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\ps2\ps2.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\ps2\ps2device.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\ps2\ps2matfx.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\ps2\ps2raster.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\ps2\ps2skin.cpp">
+      <Filter>ps2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\librw\src\raster.cpp" />
+    <ClCompile Include="..\vendor\librw\src\render.cpp" />
+    <ClCompile Include="..\vendor\librw\src\skin.cpp" />
+    <ClCompile Include="..\vendor\librw\src\texture.cpp" />
+    <ClCompile Include="..\vendor\librw\src\tga.cpp" />
+    <ClCompile Include="..\vendor\librw\src\tristrip.cpp" />
+    <ClCompile Include="..\vendor\librw\src\userdata.cpp" />
+    <ClCompile Include="..\vendor\librw\src\uvanim.cpp" />
+    <ClCompile Include="..\vendor\librw\src\world.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\vendor\librw\src\CMakeLists.txt" />
+    <None Include="..\vendor\librw\src\base.err" />
+    <None Include="..\vendor\librw\src\gl\shaders\Makefile">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\default.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\default_vs_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\header.frag">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\header.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\header_fs.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\header_vs.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\im2d.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\im2d_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\im3d.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\im3d_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\matfx_env.frag">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\matfx_env.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\matfx_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\simple.frag">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\simple_fs_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\skin.vert">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\gl\shaders\skin_gl.inc">
+      <Filter>gl\shaders</Filter>
+    </None>
+    <None Include="..\vendor\librw\src\vgafont.inc" />
+  </ItemGroup>
+</Project>
