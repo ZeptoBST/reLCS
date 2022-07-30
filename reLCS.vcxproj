@@ -1674,6 +1674,7 @@
     <ClCompile Include="..\src\core\CdStream.cpp" />
     <ClCompile Include="..\src\core\CdStreamPosix.cpp" />
     <ClCompile Include="..\src\core\Clock.cpp" />
+    <ClCompile Include="..\src\core\common.cpp" />
     <ClCompile Include="..\src\core\ControllerConfig.cpp" />
     <ClCompile Include="..\src\core\Debug.cpp" />
     <ClCompile Include="..\src\core\Directory.cpp" />
@@ -1860,7 +1861,6 @@
     <ClCompile Include="..\src\weapons\Weapon.cpp" />
     <ClCompile Include="..\src\weapons\WeaponEffects.cpp" />
     <ClCompile Include="..\src\weapons\WeaponInfo.cpp" />
-    <ClCompile Include="common.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\src\skel\win\gtalcs.ico" />

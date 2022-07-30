@@ -1649,7 +1649,7 @@
     <ClCompile Include="..\src\audio\sampman_oal.cpp">
       <Filter>audio</Filter>
     </ClCompile>
-    <ClCompile Include="common.cpp">
+    <ClCompile Include="..\src\core\common.cpp">
       <Filter>core</Filter>
     </ClCompile>
   </ItemGroup>
