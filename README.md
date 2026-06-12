@@ -1,4 +1,2 @@
-# reLCS
-reLCS stuff.
-
-Warning: Was maintained by someone (me) who has limited knowledge on coding. As such, if things are very improperly done, then you know why.
+# reLCS Bug Tracker
+The purpose of this repository is to track issues present in reLCS.
