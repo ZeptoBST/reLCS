@@ -1,2 +1,4 @@
-# reLCS Bug Tracker
-The purpose of this repository is to track issues present in reLCS.
+# reLCS
+An experimental and unofficial port of GTA LCS to PC.
+
+Requires the assets "lcs_dist.7z", obtainable from [RockstarVision](http://gta.rockstarvision.com/).
