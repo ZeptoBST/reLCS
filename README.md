@@ -1,4 +1,4 @@
 # reLCS
 An experimental and unofficial port of GTA LCS to PC.
 
-Requires the assets "lcs_dist.7z", obtainable from [RockstarVision](http://gta.rockstarvision.com/).
+You'll need to supply the assets from "lcs_dist.7z", obtainable from the RockstarVision website (you're on your own).
