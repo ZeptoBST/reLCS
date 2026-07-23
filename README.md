@@ -14,3 +14,5 @@ Here's how to get reLCS working:
 5: You'll need "WEAPON.DAT" from the mobile version of LCS. Will be available as a patch to the one included in "Lcs_dist.7z".
 
 6: If you want the intro fmvs, you can get them here : https://mega.nz/file/SUNEUb5K#AR8A9qyUH8WGM8vHR3mYCeObu_rUy1-_EA1Es63g4Mg , place the "movies" folder in the root folder of the game.
+
+https://discord.gg/EaTQhjA4Xr
