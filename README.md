@@ -1,4 +1,4 @@
-# reLCS
+# OpenLCS
 An experimental and unofficial port of GTA LCS to PC.
 
 Here's how to get reLCS working:
